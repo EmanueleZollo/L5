@@ -1,0 +1,139 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    font-size: 1.2rem;
+    color: #393d41;
+    text-align: center;
+}
+
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+div{
+    padding: 20px 10px;
+}
+
+img{
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.75rem;
+    font-size: xx-large;
+    text-align: center;
+    padding: 40px 60px 10px 60px;
+}
+
+h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px;
+    font-size: xx-large;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    padding: 5px 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f04c2f;
+    margin: 0px 125px 20px 125px;
+    color: white;
+    padding: 10px 20px;
+}
+
+blockquote{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: medium;
+}
+
+a{
+    color: #c8e7f0;
+}
+
+main div:nth-child(1) {
+    background-image: url("/images/banner-cut.jpg") ;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+main div:nth-child(2) img {
+    border-radius: 49% 51% 49% / 50% 50% 50% 50%;
+    width: 300px;
+    height: 300px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+main div:nth-child(3) {
+    background-color: #e22d0e;
+}
+
+main div:nth-child(3) p{
+    color: white;
+    font-size: medium;
+    margin: 20px;
+    margin-bottom: 10px;
+    line-height: 0;
+}
+
+
+#ceo {
+    margin-top: 0;
+    font-size: 0.7rem;
+}
+
+.card{
+    border: #dee1e3 2px solid;
+    background-color: white;
+    background-image: none;
+    border-radius: none;
+    line-height: 1.5rem;
+}
+
+footer{
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding: 20px 20px 40px 20px;
+}
+
+footer p {
+    margin: 10px;
+    padding: 0;
+    line-height: 5px;
+}
+
+hr{
+    margin: 50px;
+
+}
+
+/*  border: #dee1e3 solid; BORDO SCHEDE?*/
+
+
+
