@@ -6,14 +6,19 @@ body{
     line-height: 1.65;
     font-size: 1.2rem;
     color: #393d41;
+    text-align: center;
 }
 
 
 header{
     background-color: black;
-    text-align: center;
+    text-align: left;
     padding: 30px;
     margin: 0;
+}
+
+main p {
+    text-align: center;
 }
 
 article{
@@ -86,6 +91,7 @@ blockquote{
 
 a{
     color: #c8e7f0;
+    text-align: center;
 }
 
 main div:nth-child(1) {
@@ -106,15 +112,17 @@ section img {
 section div{
     width: 50%;
     float: right;
+    margin-right: 40px;
 }
 
-section div h4,p {
+section div p,h4 {
     text-align: left;
 }
 
-.inline {
-    display: inline;
-    background-color: white;
+
+
+.inline-block{
+    display: inline-block;
 }
 
 article div {
@@ -140,10 +148,9 @@ article div p{
 
 .card{
     border: #dee1e3 1px solid;
-    margin: 20px;
-    margin-bottom: 30px;
+    margin: 60px;
     border-radius: 7px;
-    float: right;
+    float: left;
 }
 
 aside div{
@@ -155,22 +162,30 @@ aside div{
 
 aside div.card img{
     width: 100%;
+    object-fit: cover;
+}
+
+aside p {
+    text-align: center;
 }
 
 footer{
     color: #c8e7f0;
     background-color: #25a2c3;
     padding: 20px 20px 80px 20px;
+    text-align: center;
 }
 
 footer p {
     margin: 10px;
     padding: 0;
     line-height: 5px;
+    text-align: center;
 }
 
 hr{
-    margin: 30px 100px;
+    width: 200px;
+    margin: 30px 45%;
 
 }
 
