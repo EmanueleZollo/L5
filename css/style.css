@@ -17,12 +17,16 @@ header{
     margin: 0;
 }
 
+strong{
+    font-family: 'Montserrat', sans-serif;
+}
+
 div{
     padding: 20px 10px;
 }
 
 img{
-    margin: 0px;
+    
 }
 
 h1{
@@ -62,13 +66,15 @@ button{
     margin: 0px 125px 20px 125px;
     color: white;
     padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: none;
 }
 
 blockquote{
     text-align: center;
     color: white;
     font-style: italic;
-    font-size: medium;
+    font-size: large;
 }
 
 a{
@@ -104,22 +110,31 @@ main div:nth-child(3) p{
 
 
 #ceo {
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     font-size: 0.7rem;
 }
 
 .card{
-    border: #dee1e3 2px solid;
-    background-color: white;
-    background-image: none;
-    border-radius: none;
-    line-height: 1.5rem;
+    border: #dee1e3 1px solid;
+    margin: 20px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+aside div{
+    margin-bottom: 40px;
+    
+}
+
+aside div.card img{
+    width: 100%;
 }
 
 footer{
     color: #c8e7f0;
     background-color: #25a2c3;
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 80px 20px;
 }
 
 footer p {
@@ -129,11 +144,16 @@ footer p {
 }
 
 hr{
-    margin: 50px;
+    margin: 30px 100px;
 
 }
 
-/*  border: #dee1e3 solid; BORDO SCHEDE?*/
+/* 
+footer p:nth-child(4) {
+    font-size: small;
+    margin-bottom: 40px;
+}
+     */
 
 
 
